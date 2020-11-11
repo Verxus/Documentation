@@ -8,7 +8,7 @@ Heroes are all the unique characters in the game. This class contains all the in
 | `System.Collections.Generic`                                                    |                                                 |                                         |
 | `System.Linq`                                                                   |                                                 |                                         |
 | `System.Xml.Serialization`                                                      |                                                 |                                         |
-| `Heplers`                                                                       |                                                 |                                         |
+| `Helpers`                                                                       |                                                 |                                         |
 | [TaleWorlds.CampaignSystem.Actions](./actions/ChangeOwnerOfSettlementAction.md) |                                                 |                                         |
 | [TaleWorlds.CampaignSystem.CharacterDevelopment.Managers]()                     |                                                 |                                         |
 | [TaleWorlds.Core](../core/README.md)                                            |                                                 |                                         |
@@ -54,7 +54,7 @@ TODO
  | IsMercenary       | IsMercenary                   | `bool`                                                         | Is hero mercenary                          |       |
  | SpcDaysInLocation | SpcDaysInLocation             | `int`                                                          | TODO                                       |       |
  | private           | _health                       | `int`                                                          | Health                                     |       |
- | private           | _birthDay                     | [CampaignTime]()                                               | BearthDay                                  |       |
+ | private           | _birthDay                     | [CampaignTime]()                                               | BirthDay                                   |       |
  | private           | _deathDay                     | [CampaignTime]()                                               | Day of death                               |       |
  | private           | _power                        | `int`                                                          | Power                                      |       |
  | public            | VisitedSettlements            | `Dictionary<`[Settlement]()`, float>`                          | Visited settlements                        |       |
@@ -83,7 +83,7 @@ TODO
  | private readonly  | _children                     | `List`[Hero]()`>`                                              | Children                                   |       |
  | public            | IsFertile                     | bool                                                           | Can hero have children                     |       |
  | public            | IsPregnant                    | bool                                                           | Is hero pregnant now                       |       |
- | private reeadonly | _heroDeveloper                | [HeroDeveloper]()                                              | TODO                                       |       |
+ | private readonly  | _heroDeveloper                | [HeroDeveloper]()                                              | TODO                                       |       |
  |                   |
 
 
